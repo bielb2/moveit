@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: any) {
   <ChallengesProvider>
       <Component {...pageProps} />
   </ChallengesProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
